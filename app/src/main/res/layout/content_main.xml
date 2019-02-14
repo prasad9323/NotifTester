@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="4dp"
+        tools:context="com.supercell.clashofclans.MainActivity">
+
+        <TextView
+            android:id="@+id/shield"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_margin="4dp"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:text="Shield"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/guard"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_margin="4dp"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:text="Guard"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/army"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_margin="4dp"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:text="Army"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/raid"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_margin="4dp"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:text="Raid"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/collectors"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_margin="4dp"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:text="Collectors"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/war_declared"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_margin="4dp"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:text="War declared"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/war_start"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_margin="4dp"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:text="War start"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/war_end"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_margin="4dp"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:text="War end"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/upgrade"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_margin="4dp"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:text="Upgrade"
+            android:textColor="@color/white" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_margin="8dp"
+            android:background="@color/colorPrimary" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="Builder base"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/clock_tower_boost"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_margin="4dp"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:text="Clock tower boost"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/buider_base_loot"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_margin="4dp"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:text="Builder base loot"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/gem_mine_full"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_margin="4dp"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:text="Gem mine full"
+            android:textColor="@color/white" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_margin="8dp"
+            android:background="@color/colorPrimary" />
+
+        <TextView
+            android:id="@+id/misc"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_margin="4dp"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:text="Miscellaneous"
+            android:textColor="@color/white" />
+    </LinearLayout>
+</ScrollView>
